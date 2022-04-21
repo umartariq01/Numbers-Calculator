@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgba(175, 175, 175, 0.7);
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://cdn.pixabay.com/photo/2021/08/08/15/45/mountains-6531264_960_720.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input[type="button"] {
+    margin: 10px;
+    font-size: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px -9px rgba(0, 0, 0, 0.84);
+    -webkit-box-shadow: 2px 3px 20px -9px rgba(0, 0, 0, 0.84);
+    -moz-box-shadow: 2px 3px 20px -9px rgba(0, 0, 0, 0.84);
+    width: 50px;
+    height: 50px;
+}
+
+input[type="text"] {
+    background: #fff;
+    color: #5a7eca;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    box-shadow: inset 0px 1px 8px rgb(93, 148, 221);
+    font-family: inherit;
+    font-size: 1em;
+    line-height: 1.45;
+    outline: none;
+    padding: 0.6em 1.45em 0.7em;
+    -webkit-transition: .18s ease-out;
+    -moz-transition: .18s ease-out;
+    -o-transition: .18s ease-out;
+    transition: .18s ease-out;
+}
+
+input[type="text"]:hover {
+    box-shadow: inset 1px 2px 8px rgb(99, 111, 218);
+}
+
+input[type="text"]:focus {
+    color: #4b515d;
+    border: 1px solid #B8B6B6;
+    box-shadow: inset 1px 2px 4px rgb(93, 148, 221), 0px 0px 8px rgb(93, 148, 221);
+}
